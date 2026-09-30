@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "pikachu": {
+        "name": "Pikachu",
+        "hp": 20,
+        "atc": 6,
+        "defense": 2,
+        "attacks": ["tackle", "shock", "tail_wipe"],
+        "pool": ["charging", "mega_arch"],
+        "miss_chance": 0.05,
+        "desc": "An iconic electric mouse Pokémon that refuses to stay in its ball.",
+        "lose_xp": 4,
+        "rarity": 0.3,
+        "types": ["electro", "normal"],
+        "evolve_poke": "raichu",
+        "evolve_lvl": 25,
+        "initiative": 7,
+        "ico": [{
+            "txt": r"""  /\___/\
+ (  o o  )
+  |  w  |
+   \___/ \Z""",
+            "esc": None}, {
+            "txt": r"""
+ 
+  *     *""",
+            "esc": ["thicc", "red"]}]
 }
 
 if __name__ == "__main__":
